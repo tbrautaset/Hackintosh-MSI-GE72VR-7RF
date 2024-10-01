@@ -1,0 +1,35 @@
+<html>
+<header>
+	<title>Intel Power Gadget - Read Me</title>
+</head>
+<body>
+
+<b>Introduction</b><br />
+Intel(R) Power Gadget is a software-based power estimation tool enabled for 2nd Generation Intel(R) Core(TM) processors or later. It includes a application, driver, and libraries to monitor and estimate real-time processor package power information in watts using the energy counters in the processor<br /><br />
+
+<b>Uninstall</b><br />
+To uninstall Intel(R) Power Gadget and all its components, run Uninstaller.pkg.<br /><br />
+
+<b>PowerLog</b><br />
+Intel(R) Power Gadget data can be logged from the command line (without running the GUI app) using PowerLog
+<pre>Usage: 
+log power data to logfile for a period of time:
+	PowerLog [-resolution <msec>] -duration <sec> [-verbose] [-file <logfile>]
+start a command and log power data to logfile until the command finish
+	PowerLog [-resolution <msec>] [-file <logfile>] [-verbose] -cmd <command>
+Default for resolution = 50 ms
+Default for logfile = PowerLog.ipg
+-cmd must be the last parameter</pre>
+
+<b>API</b><br />
+The Intel(R) Power Gadget API is a framework (IntelPowerGadget.framework) that provides a C interface for reading current estimated processor power, current processor frequency, base frequency, thermal design power (TDP), current temperature, maximum temperature, timestamps, and elapsed time. It also provides logging functionality.
+<br /><br />
+To use the API you'll need the Intel(R) Power Gadget for Mac driver and framework. These are included in the Intel(R) Power Gadget installer, or as a standalone API installer. The driver is installed to /Library/Extensions/EnergyDriver.kext, and the framework is installed to /Library/Frameworks/IntelPowerGadget.framework. See the API specification in /Library/Frameworks/IntelPowerGadget.framework/Headers/EnergyLib.h (C version) or /Library/Frameworks/IntelPowerGadget.framework/Headers/IntelPowerGadgetLib.h (C++ version)
+<br /><br />
+To link with the Intel(R) Power Gadget API you simply need to include
+-framework IntelPowerGadget in your link command.
+<br /><br />
+For more information, see <a href='http://software.intel.com/en-us/blogs/2012/12/13/using-the-intel-power-gadget-api-on-mac-os-x'>Using the Intel Power Gadget API on Mac OS X</a>.
+
+</body>
+</html>
