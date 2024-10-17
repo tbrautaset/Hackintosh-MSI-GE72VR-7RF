@@ -27,9 +27,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>EV9TVEE=</data>
+					<data>
+					EV9TVEE=
+					</data>
 					<key>Replace</key>
-					<data>EVhTVEE=</data>
+					<data>
+					EVhTVEE=
+					</data>
 					<key>Skip</key>
 					<integer>0</integer>
 				</dict>
@@ -41,9 +45,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>JV9DUlM=</data>
+					<data>
+					JV9DUlM=
+					</data>
 					<key>Replace</key>
-					<data>JVhDUlM=</data>
+					<data>
+					JVhDUlM=
+					</data>
 					<key>Skip</key>
 					<integer>0</integer>
 				</dict>
@@ -55,9 +63,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>IgQAeQA=</data>
+					<data>
+					IgQAeQA=
+					</data>
 					<key>Replace</key>
-					<data>IgAAeQA=</data>
+					<data>
+					IgAAeQA=
+					</data>
 					<key>Skip</key>
 					<integer>0</integer>
 				</dict>
@@ -69,9 +81,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>IgABeQA=</data>
+					<data>
+					IgABeQA=
+					</data>
 					<key>Replace</key>
-					<data>IgAAeQA=</data>
+					<data>
+					IgAAeQA=
+					</data>
 					<key>Skip</key>
 					<integer>0</integer>
 				</dict>
@@ -83,9 +99,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>IgEAeQA=</data>
+					<data>
+					IgEAeQA=
+					</data>
 					<key>Replace</key>
-					<data>IgAAeQA=</data>
+					<data>
+					IgAAeQA=
+					</data>
 					<key>Skip</key>
 					<integer>0</integer>
 				</dict>
@@ -97,9 +117,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>UE5MRg==</data>
+					<data>
+					UE5MRg==
+					</data>
 					<key>Replace</key>
-					<data>WE5MRg==</data>
+					<data>
+					WE5MRg==
+					</data>
 					<key>Skip</key>
 					<integer>0</integer>
 				</dict>
@@ -111,9 +135,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X1FCNw==</data>
+					<data>
+					X1FCNw==
+					</data>
 					<key>Replace</key>
-					<data>WFFCNw==</data>
+					<data>
+					WFFCNw==
+					</data>
 					<key>Skip</key>
 					<integer>0</integer>
 				</dict>
@@ -125,9 +153,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X1FCOA==</data>
+					<data>
+					X1FCOA==
+					</data>
 					<key>Replace</key>
-					<data>WFFCOA==</data>
+					<data>
+					WFFCOA==
+					</data>
 					<key>Skip</key>
 					<integer>0</integer>
 				</dict>
@@ -139,9 +171,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X09TSQ==</data>
+					<data>
+					X09TSQ==
+					</data>
 					<key>Replace</key>
-					<data>WE9TSQ==</data>
+					<data>
+					WE9TSQ==
+					</data>
 					<key>Skip</key>
 					<integer>0</integer>
 				</dict>
@@ -208,26 +244,44 @@
 			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
 				<key>layout-id</key>
-				<data>YgAAAA==</data>
+				<data>
+				YgAAAA==
+				</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>AAAbWQ==</data>
+				<data>
+				AAAbWQ==
+				</data>
 				<key>framebuffer-con1-alldata</key>
-				<data>AQUJAAAIAACHAQAA</data>
+				<data>
+				AQUJAAAIAACHAQAA
+				</data>
 				<key>framebuffer-con1-enable</key>
-				<data>AQAAAA==</data>
+				<data>
+				AQAAAA==
+				</data>
 				<key>framebuffer-con2-alldata</key>
-				<data>AwYKAAAEAACHAQAA</data>
+				<data>
+				AwYKAAAEAACHAQAA
+				</data>
 				<key>framebuffer-con2-enable</key>
-				<data>AQAAAA==</data>
+				<data>
+				AQAAAA==
+				</data>
 				<key>framebuffer-fbmem</key>
-				<data>AACQAA==</data>
+				<data>
+				AACQAA==
+				</data>
 				<key>framebuffer-patch-enable</key>
-				<data>AQAAAA==</data>
+				<data>
+				AQAAAA==
+				</data>
 				<key>framebuffer-stolenmem</key>
-				<data>AAAwAQ==</data>
+				<data>
+				AAAwAQ==
+				</data>
 			</dict>
 		</dict>
 		<key>USB</key>
@@ -322,7 +376,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C0000000000000000</string>
+		<string>00000000000000000</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -356,7 +410,7 @@
 		<key>ProductName</key>
 		<string>MacBookPro16,4</string>
 		<key>SerialNumber</key>
-		<string>C00000000000</string>
+		<string>000000000000</string>
 		<key>SmUUID</key>
 		<string>00000000-0000-0000-0000-000000000000</string>
 		<key>Version</key>
