@@ -8,10 +8,8 @@
 		<string>516x</string>
 		<key>Hackintosh Hardware</key>
 		<string>Laptop (7th Gen) Kaby Lake MSI Computer Corp. GE72VR Apache Pro</string>
-		<key>RtVariables note CsrActiveConfig</key>
-		<string>Må være 0x000 ved oppdatering, ellers 0x803</string>
 		<key>rEFInd</key>
-		<string>0.14.2</string>
+		<string>0.14.x</string>
 	</dict>
 	<key>ACPI</key>
 	<dict>
@@ -206,7 +204,7 @@
 		<key>Arguments</key>
 		<string>-lilubetaall revpatch=sbvmm</string>
 		<key>DefaultVolume</key>
-		<string>5B4BA07D-6238-4A3B-A2AC-99B36A24A26D</string>
+		<string>Preboot</string>
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>NeverDoRecovery</key>
@@ -324,6 +322,27 @@
 	<dict>
 		<key>BlockSkywalk</key>
 		<true/>
+		<key>KextsToPatch</key>
+		<array>
+			<dict>
+				<key>Comment</key>
+				<string>Enable TRIM for SSD</string>
+				<key>Disabled</key>
+				<true/>
+				<key>Find</key>
+				<data>
+				AEFQUExFIFNTRAA=
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>com.apple.iokit.IOAHCIBlockStorage</string>
+				<key>Replace</key>
+				<data>
+				AAAAAAAAAAAAAAA=
+				</data>
+			</dict>
+		</array>
 		<key>PanicNoKextDump</key>
 		<true/>
 	</dict>

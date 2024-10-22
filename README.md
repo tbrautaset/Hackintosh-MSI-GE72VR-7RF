@@ -3,11 +3,10 @@
 # [macOS on MSI Gaming GE72VR 7RF(Apache Pro)-272NE](https://www.youtube.com/watch?v=MOOScGPnqz4)
 ![AboutThisMac](https://raw.githubusercontent.com/tbrautaset/Hackintosh-MSI-GE72VR-7RF/refs/heads/master/Pictures/macOS%2015.1%20Beta%205%20(24B5055e)/About%20This%20Mac.png)<br>
 [![macOS](https://img.shields.io/badge/macOS-Sequoia-yellow.svg)](https://www.apple.com/macos/macos-sequoia/)
-[![Version](https://img.shields.io/badge/macOS%2015.1%20Beta%205%20(24B5055e)-yellow)](https://swcdn.apple.com/content/downloads/25/26/062-91076-A_0XWGJV9RZU/3iqb0r0afz0bj0zd1s71gmhmlps51fzpgj/InstallAssistant.pkg)
-[![Clover](https://img.shields.io/badge/Clover-5160-green)](https://github.com/CloverHackyColor/CloverBootloader/releases/download/5160/CloverV2-5160.zip)<br>
-[![OpenCore](https://img.shields.io/badge/OpenCore-1.0.3-green)](https://github.com/dortania/build-repo/releases/download/OpenCorePkg-aa6f402/OpenCore-1.0.3-RELEASE.zip)
-[![OpenCoreLegacy Patcher](https://img.shields.io/badge/OpenCore%20Legacy%20Patcher-2.0.2-green)](https://github.com/dortania/OpenCore-Legacy-Patcher/releases/download/2.0.2/OpenCore-Patcher-GUI.app.zip)<br>
-[![rEFInd](https://img.shields.io/badge/rEFInd-0.14.2-green)](http://sourceforge.net/projects/refind/files/0.14.2/refind-bin-0.14.2.zip/download)
+[![Clover](https://img.shields.io/badge/Clover-516x-green)](https://github.com/CloverHackyColor/CloverBootloader/releases/download/5160/CloverV2-5160.zip)<br>
+[![OpenCore](https://img.shields.io/badge/OpenCore-1.0.x-green)](https://github.com/dortania/build-repo/releases/download/OpenCorePkg-aa6f402/OpenCore-1.0.3-RELEASE.zip)
+[![OpenCoreLegacy Patcher](https://img.shields.io/badge/OpenCore%20Legacy%20Patcher-2.0.x-green)](https://github.com/dortania/OpenCore-Legacy-Patcher/releases/download/2.0.2/OpenCore-Patcher-GUI.app.zip)<br>
+[![rEFInd](https://img.shields.io/badge/rEFInd-0.14.x-green)](http://sourceforge.net/projects/refind/files/0.14.2/refind-bin-0.14.2.zip/download)
 [![Works on my machine](https://img.shields.io/badge/Works-on%20my%20laptop-0green)](https://www.msi.com/Laptop/GE72vr-7rF-Apache-Pro/Specification)
 <details><summary><strong> HARDWARE </strong></summary><br>
 
