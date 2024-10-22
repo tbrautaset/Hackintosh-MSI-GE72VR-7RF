@@ -2,8 +2,8 @@
 
 # [macOS on MSI Gaming GE72VR 7RF(Apache Pro)-272NE](https://www.youtube.com/watch?v=MOOScGPnqz4)
 ![AboutThisMac](https://raw.githubusercontent.com/tbrautaset/Hackintosh-MSI-GE72VR-7RF/refs/heads/master/Pictures/macOS%2015.1%20Beta%205%20(24B5055e)/About%20This%20Mac.png)<br>
-[![macOS](https://img.shields.io/badge/macOS-Sequoia-yellow.svg)](https://www.apple.com/macos/macos-sequoia/)
-[![Clover](https://img.shields.io/badge/Clover-516x-green)](https://github.com/CloverHackyColor/CloverBootloader/releases/download/5160/CloverV2-5160.zip)<br>
+[![macOS](https://img.shields.io/badge/macOS-Sequoia-yellow.svg)](https://www.apple.com/macos/macos-sequoia/)<br>
+[![Clover](https://img.shields.io/badge/Clover-516x-green)](https://github.com/CloverHackyColor/CloverBootloader/releases/download/5160/CloverV2-5160.zip)
 [![OpenCore](https://img.shields.io/badge/OpenCore-1.0.x-green)](https://github.com/dortania/build-repo/releases/download/OpenCorePkg-aa6f402/OpenCore-1.0.3-RELEASE.zip)
 [![OpenCoreLegacy Patcher](https://img.shields.io/badge/OpenCore%20Legacy%20Patcher-2.0.x-green)](https://github.com/dortania/OpenCore-Legacy-Patcher/releases/download/2.0.2/OpenCore-Patcher-GUI.app.zip)<br>
 [![rEFInd](https://img.shields.io/badge/rEFInd-0.14.x-green)](http://sourceforge.net/projects/refind/files/0.14.2/refind-bin-0.14.2.zip/download)
