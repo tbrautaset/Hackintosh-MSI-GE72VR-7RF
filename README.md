@@ -3,10 +3,10 @@
 # [macOS on MSI Gaming GE72VR 7RF(Apache Pro)-272NE](https://www.youtube.com/watch?v=MOOScGPnqz4)
 ![AboutThisMac](https://raw.githubusercontent.com/tbrautaset/Hackintosh-MSI-GE72VR-7RF/refs/heads/master/Pictures/macOS%2015.1%20Beta%205%20(24B5055e)/About%20This%20Mac.png)<br>
 [![macOS](https://img.shields.io/badge/macOS-Sequoia-yellow.svg)](https://www.apple.com/macos/macos-sequoia/)<br>
-[![Clover](https://img.shields.io/badge/Clover-516x-green)](https://github.com/CloverHackyColor/CloverBootloader/releases/download/5160/CloverV2-5160.zip)
-[![OpenCore](https://img.shields.io/badge/OpenCore-1.0.x-green)](https://github.com/dortania/build-repo/releases/download/OpenCorePkg-aa6f402/OpenCore-1.0.3-RELEASE.zip)
-[![OpenCoreLegacy Patcher](https://img.shields.io/badge/OpenCore%20Legacy%20Patcher-2.0.x-green)](https://github.com/dortania/OpenCore-Legacy-Patcher/releases/download/2.0.2/OpenCore-Patcher-GUI.app.zip)<br>
-[![rEFInd](https://img.shields.io/badge/rEFInd-0.14.x-green)](http://sourceforge.net/projects/refind/files/0.14.2/refind-bin-0.14.2.zip/download)
+[![Clover](https://img.shields.io/badge/Clover-516x-green)](https://github.com/CloverHackyColor/CloverBootloader/releases)
+[![OpenCore](https://img.shields.io/badge/OpenCore-1.0.x-green)](https://github.com/dortania/build-repo/releases)
+[![OpenCoreLegacy Patcher](https://img.shields.io/badge/OpenCore%20Legacy%20Patcher-2.0.x-green)](https://github.com/dortania/OpenCore-Legacy-Patcher/releases)<br>
+[![rEFInd](https://img.shields.io/badge/rEFInd-0.14.x-green)](http://sourceforge.net/projects/refind/files)
 [![Works on my machine](https://img.shields.io/badge/Works-on%20my%20laptop-0green)](https://www.msi.com/Laptop/GE72vr-7rF-Apache-Pro/Specification)
 <details><summary><strong> HARDWARE </strong></summary><br>
 
@@ -54,12 +54,12 @@ Crucial  32768 MB  , 2x16 GB, DDR4-2400 SO DIMM 260-pin
 <img src="https://raw.githubusercontent.com/tbrautaset/Hackintosh-MSI-GE72VR-7RF/refs/heads/master/Pictures/Crucial.jpg" width="'150" height="100"/>
 
 ### Samsung 960 EVO 1TB PCIe 3.0 x4 NVMExpressSSD M.2 2280 Solid State Drive
-Main boot drive for this machine and EFI for rEFIndPlus v0.12.0.M, OpenCore, macOS and Windows
+Main boot drive for this machine and EFI for rEFInd, Clover, Microsoft and OpenCore
 
 ![960 EVO](https://raw.githubusercontent.com/tbrautaset/Hackintosh-MSI-GE72VR-7RF/refs/heads/master/Pictures/Samsung960.jpg)
 
 ### WD Blue 1TB SSD
-macOS, Debian and Windows data / home folders run off this drive, as well as EFI for Debian.
+macOS, Linux and Microsoft data / home folders run off this drive, as well as EFI for Linux
 
 ![Blue 1TB](https://raw.githubusercontent.com/tbrautaset/Hackintosh-MSI-GE72VR-7RF/refs/heads/master/Pictures/WDBlue.jpg)
 
@@ -74,8 +74,7 @@ Broadcom DW1560 BCM94352Z 06XRYC 802.11ac NGFF M2 867Mbps BCM94352 BT4.0 WiFiCar
 <details><summary><strong> CREDITS </strong></summary><br>
 
 - [Apple](https://www.apple.com) for macOS
-- [Acidanthera](https://github.com/acidanthera) for awesome kexts
-- [RehabMan](https://github.com/RehabMan) for guides and kexts</details>
+- [Acidanthera](https://github.com/acidanthera) for awesome kexts</details>
 <details><summary><strong> ALERT </strong></summary><br>
 
 ![](https://raw.githubusercontent.com/tbrautaset/Hackintosh-MSI-GE72VR-7RF/refs/heads/master/Pictures/Alert!.gif)
@@ -95,9 +94,9 @@ This step extracts the Installer contents, then installs bootloader to the USB s
   9. Under **Format:** choose **Mac OS Extended (Journaled)**
   10. Click **Apply** then ***Partition***
   11. Open **/Applications/Utilities/Terminal**
-  12. Type the following, enter password and hit enter. This command completely erases the USB, then creates native installer media from the Install macOS Application.
+  12. Type the following, enter password and hit enter.<br>- This command completely erases the USB, then creates native installer media from the Install macOS Application:<br>
 ```sudo /Applications/Install\ macOS\ Sequoia\ Beta.app/Contents/Resources/createinstallmedia --volume /Volumes/USB /Applications/Install\ macOS\ Sequoia\ Beta.app --nointeraction```
-  13. Copy ![#1 ESP](https://github.com/tbrautaset/Hackintosh-MSI-GE72VR-7RF/tree/master/%231%20ESP/EFI) relevant contents to USB's EFI partition (diskXs1 ) as the target volume .​</details>
+  13. Copy ![#1 ESP](https://github.com/tbrautaset/Hackintosh-MSI-GE72VR-7RF/tree/master/%231%20ESP/EFI) relevant contents to USB's EFI partition (diskXs1 ) as the target volume.</details>
 <details><summary><strong> OTHERS </strong></summary><br>
   
 Time Sync
