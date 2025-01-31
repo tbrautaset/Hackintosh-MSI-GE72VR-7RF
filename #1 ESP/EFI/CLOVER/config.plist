@@ -191,7 +191,7 @@
 		<key>SortedOrder</key>
 		<array>
 			<string>SSDT-HPET.aml</string>
-			<string>SSDT-USBX.aml</string>
+			<string>SSDT-EC-USBX-LAPTOP.aml</string>
 			<string>SSDT-PLUG.aml</string>
 			<string>SSDT-PNLF.aml</string>
 			<string>SSDT-XOSI.aml</string>
@@ -395,7 +395,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>00000000000000000</string>
+		<string>C0000000000000000</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -429,7 +429,7 @@
 		<key>ProductName</key>
 		<string>MacBookPro16,4</string>
 		<key>SerialNumber</key>
-		<string>000000000000</string>
+		<string>C00000000000</string>
 		<key>SmUUID</key>
 		<string>00000000-0000-0000-0000-000000000000</string>
 		<key>Version</key>
