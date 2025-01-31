@@ -1,7 +1,7 @@
 <img src="https://raw.githubusercontent.com/tbrautaset/Hackintosh-MSI-GE72VR-7RF/refs/heads/master/Pictures/OpenCore_with_text_Small.png" width="200" height="48"/>
 
 # [macOS on MSI Gaming GE72VR 7RF(Apache Pro)-272NE](https://www.youtube.com/watch?v=MOOScGPnqz4)
-![AboutThisMac](https://raw.githubusercontent.com/tbrautaset/Hackintosh-MSI-GE72VR-7RF/refs/heads/master/Pictures/macOS%2015.1%20Beta%205%20(24B5055e)/About%20This%20Mac.png)<br>
+![AboutThisMac](https://raw.githubusercontent.com/tbrautaset/Hackintosh-MSI-GE72VR-7RF/refs/heads/master/Pictures/About%20This%20Mac.png)<br>
 [![macOS](https://img.shields.io/badge/macOS-Sequoia-yellow.svg)](https://www.apple.com/macos/macos-sequoia/)<br>
 [![Clover](https://img.shields.io/badge/Clover-516x-green)](https://github.com/CloverHackyColor/CloverBootloader/releases)
 [![OpenCore](https://img.shields.io/badge/OpenCore-1.0.x-green)](https://github.com/dortania/build-repo/releases)
