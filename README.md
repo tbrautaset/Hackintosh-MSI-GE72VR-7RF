@@ -5,7 +5,7 @@
 [![macOS](https://img.shields.io/badge/macOS-Sequoia-yellow.svg)](https://www.apple.com/macos/macos-sequoia/)<br>
 [![Clover](https://img.shields.io/badge/Clover-516x-green)](https://github.com/CloverHackyColor/CloverBootloader/releases)
 [![OpenCore](https://img.shields.io/badge/OpenCore-1.0.x-green)](https://github.com/dortania/build-repo/releases)
-[![OpenCoreLegacy Patcher](https://img.shields.io/badge/OpenCore%20Legacy%20Patcher-2.0.x-green)](https://github.com/dortania/OpenCore-Legacy-Patcher/releases)<br>
+[![OpenCoreLegacy Patcher](https://img.shields.io/badge/OpenCore%20Legacy%20Patcher-2.4.x-green)](https://github.com/dortania/OpenCore-Legacy-Patcher/releases)<br>
 [![rEFInd](https://img.shields.io/badge/rEFInd-0.14.x-green)](http://sourceforge.net/projects/refind/files)
 [![Works on my machine](https://img.shields.io/badge/Works-on%20my%20laptop-0green)](https://www.msi.com/Laptop/GE72vr-7rF-Apache-Pro/Specification)
 <details><summary><strong> HARDWARE </strong></summary><br>
@@ -95,7 +95,7 @@ This step extracts the Installer contents, then installs bootloader to the USB s
   10. Click **Apply** then ***Partition***
   11. Open **/Applications/Utilities/Terminal**
   12. Type the following, enter password and hit enter.<br>- This command completely erases the USB, then creates native installer media from the Install macOS Application:<br>
-```sudo /Applications/Install\ macOS\ Sequoia\ Beta.app/Contents/Resources/createinstallmedia --volume /Volumes/USB /Applications/Install\ macOS\ Sequoia\ Beta.app --nointeraction```
+```sudo /Applications/Install\ macOS\ Tahoe.app/Contents/Resources/createinstallmedia --volume /Volumes/USB /Applications/Install\ macOS\ Tahoe.app --nointeraction```
   13. Copy ![#1 ESP](https://github.com/tbrautaset/Hackintosh-MSI-GE72VR-7RF/tree/master/%231%20ESP/EFI) relevant contents to USB's EFI partition (diskXs1 ) as the target volume.</details>
 <details><summary><strong> OTHERS </strong></summary><br>
   
@@ -148,15 +148,19 @@ After second reboot enter BIOS in the same way, go to Security tab, select Secur
 </pre></details>
 <details><summary><strong> USB </strong></summary><br>
 
-### :computer: USB Ports (RP05 loads natively PXSX Type-C USB3.1 Gen2 | Front left)
-- HS03 USB3 <-- Type-A USB2.0 | SS19 | Front left
-- HS04 USB3 <-- Type-A USB2.0 | SS20 | Front left
+### :computer: USB ports in use: XHC: 8, PXSX: 1
+---- XHC@14 @ _SB.PCI0.XHC Controller \-> RHUB @ _SB.PCI0.XHC.RHUB ----
+- HS03 USB3 <-- Type-A USB2.0 | Rear left
+- HS04 USB3 <-- Type-A USB2.0 | Front left
 - HS08 USB2 <-- Type-A USB2.0 | Rear right
 - HS10 Internal <-- USB2.0 - BCM20702A0 (Bluetooth)
 - HS11 Internal <-- USB2.0 - BisonCam, NB Pro
-- HS12 Internal <-- USB2.0 - USB2.0-CRW (Card reader)
-- SS19 USB3 <-- Type-A USB3.0 | HS03 | Rear left
-- SS20 USB3 <-- Type-A USB3.0 | HS04 | Front left</details>
+- HS12 Internal <-- USB2.0 - CRW (Card reader)
+- SS03 USB3 <-- Type-A USB3.0 | Rear left
+- SS03 USB3 <-- Type-A USB3.0 | Front left
+
+---- PXSX@0 @ _SB.PCI0.RP05.PXSX Controller \-> RHUB @ _SB.PCI0.RP05.PXSX.RHUB ----
+- HS01 USB3 <-- Type-C noSW USB3.1 Gen2 | Front left</details>
 ## Useful Info
 - [Vanilla Laptop Guide](https://dortania.github.io/OpenCore-Install-Guide/)
 
