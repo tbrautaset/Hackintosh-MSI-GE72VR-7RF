@@ -2,7 +2,7 @@
 
 # [macOS on MSI Gaming GE72VR 7RF(Apache Pro)-272NE](https://www.youtube.com/watch?v=MOOScGPnqz4)
 ![AboutThisMac](https://raw.githubusercontent.com/tbrautaset/Hackintosh-MSI-GE72VR-7RF/refs/heads/master/Pictures/About%20This%20Mac.png)<br>
-[![macOS](https://img.shields.io/badge/macOS-Sequoia-yellow.svg)](https://www.apple.com/macos/macos-sequoia/)<br>
+[![macOS](https://img.shields.io/badge/macOS-Tahoe-yellow.svg)](https://www.apple.com/os/macos/)<br>
 [![Clover](https://img.shields.io/badge/Clover-516x-green)](https://github.com/CloverHackyColor/CloverBootloader/releases)
 [![OpenCore](https://img.shields.io/badge/OpenCore-1.0.x-green)](https://github.com/dortania/build-repo/releases)
 [![OpenCoreLegacy Patcher](https://img.shields.io/badge/OpenCore%20Legacy%20Patcher-2.4.x-green)](https://github.com/dortania/OpenCore-Legacy-Patcher/releases)<br>
