@@ -148,19 +148,28 @@ After second reboot enter BIOS in the same way, go to Security tab, select Secur
 </pre></details>
 <details><summary><strong> USB </strong></summary><br>
 
-### :computer: USB ports in use: XHC: 8, PXSX: 1
----- XHC@14 @ _SB.PCI0.XHC Controller \-> RHUB @ _SB.PCI0.XHC.RHUB ----
-- HS03 USB3 <-- Type-A USB2.0 | Rear left
-- HS04 USB3 <-- Type-A USB2.0 | Front left
-- HS08 USB2 <-- Type-A USB2.0 | Rear right
-- HS10 Internal <-- USB2.0 - BCM20702A0 (Bluetooth)
-- HS11 Internal <-- USB2.0 - BisonCam, NB Pro
-- HS12 Internal <-- USB2.0 - CRW (Card reader)
-- SS03 USB3 <-- Type-A USB3.0 | Rear left
-- SS03 USB3 <-- Type-A USB3.0 | Front left
+### :computer: USB ports in use: PXSX: 1, XHC: 8
+---- AppleUSBMergeNub ----
+- `HS01 |  3 (03000000) | Type 10`
+`Type-C   NoSw USB3.1 Gen2 | Front left`
 
----- PXSX@0 @ _SB.PCI0.RP05.PXSX Controller \-> RHUB @ _SB.PCI0.RP05.PXSX.RHUB ----
-- HS01 USB3 <-- Type-C noSW USB3.1 Gen2 | Front left</details>
+---- AppleUSBHostMergeProperties ----
+- `HS03 |  3 (03000000) | Type 0`
+`Type-A        USB2.0      | Rear left`
+- `HS04 |  4 (04000000) | Type 0`
+`Type-A        USB2.0      | Front left`
+- `HS08 |  8 (08000000) | Type 0`
+`Type-A        USB2.0      | Rear right`
+- `HS10 | 10 (0a000000) | Type 255`
+`Internal      USB2.0      - BCM20702A0`
+- `HS11 | 11 (0b000000) | Type 255`
+`Internal      USB2.0      - BisonCam, NB Pro`
+- `HS12 | 12 (0c000000) | Type 255`
+`Internal      USB2.0      - CRW`
+- `SS19 | 19 (13000000) | Type 3`
+`Type-A        USB3.0      | Rear left`
+- `SS20 | 20 (14000000) | Type 3`
+`Type-A        USB3.0      | Front left`</details>
 ## Useful Info
 - [Vanilla Laptop Guide](https://dortania.github.io/OpenCore-Install-Guide/)
 
