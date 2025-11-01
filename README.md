@@ -148,28 +148,25 @@ After second reboot enter BIOS in the same way, go to Security tab, select Secur
 </pre></details>
 <details><summary><strong> USB </strong></summary><br>
 
-### :computer: USB ports in use: PXSX: 1, XHC: 8
----- AppleUSBMergeNub ----
-- `HS01 |  3 (03000000) | Type 10`
-`Type-C   NoSw USB3.1 Gen2 | Front left`
-
----- AppleUSBHostMergeProperties ----
-- `HS03 |  3 (03000000) | Type 0`
-`Type-A        USB2.0      | Rear left`
-- `HS04 |  4 (04000000) | Type 0`
-`Type-A        USB2.0      | Front left`
-- `HS08 |  8 (08000000) | Type 0`
-`Type-A        USB2.0      | Rear right`
+### :computer: USB ports in use: XHC: 8/26, PXSX: 1/4
+- `HS03 |  3 (03000000) | Type 0  `
+`Type-A    USB2.0      | Rear left`
+- `HS04 |  4 (04000000) | Type 0  `
+`Type-A    USB2.0      | Front left`
+- `HS08 |  8 (08000000) | Type 0  `
+`Type-A    USB2.0      | Rear right`
 - `HS10 | 10 (0a000000) | Type 255`
-`Internal      USB2.0      - BCM20702A0`
+`Internal  USB2.0      - BCM20702A0`
 - `HS11 | 11 (0b000000) | Type 255`
-`Internal      USB2.0      - BisonCam, NB Pro`
+`Internal  USB2.0      - BisonCam, NB Pro`
 - `HS12 | 12 (0c000000) | Type 255`
-`Internal      USB2.0      - CRW`
-- `SS19 | 19 (13000000) | Type 3`
-`Type-A        USB3.0      | Rear left`
-- `SS20 | 20 (14000000) | Type 3`
-`Type-A        USB3.0      | Front left`</details>
+`Internal  USB2.0      - CRW`
+- `SS19 | 19 (13000000) | Type 3  `
+`Type-A    USB3.0      | Rear left`
+- `SS20 | 20 (14000000) | Type 3  `
+`Type-A    USB3.0      | Front left`<br><br>
+- `HS01 |  3 (03000000) | Type 9  `
+`Type-C+Sw USB3.1 Gen2 | Front left`</details>
 ## Useful Info
 - [Vanilla Laptop Guide](https://dortania.github.io/OpenCore-Install-Guide/)
 
