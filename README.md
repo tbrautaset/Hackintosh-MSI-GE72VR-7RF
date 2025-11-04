@@ -84,19 +84,12 @@ Broadcom DW1560 BCM94352Z 06XRYC 802.11ac NGFF M2 867Mbps BCM94352 BT4.0 WiFiCar
      
 This step extracts the Installer contents, then installs bootloader to the USB stick.
   1. Insert the USB drive
-  2. Open **/Applications/Utilities/Disk Utility**
-  3. Highlight the USB drive in left column
-  4. Click on the **Partition** tab
-  5. Click **Current** and choose **1 Partition**
-  6. Click **Options...**
-  7. Choose **GUID Partition Table**
-  8. Under **Name:** type **USB** (You can rename it later)
-  9. Under **Format:** choose **Mac OS Extended (Journaled)**
-  10. Click **Apply** then ***Partition***
-  11. Open **/Applications/Utilities/Terminal**
-  12. Type the following, enter password and hit enter.<br>- This command completely erases the USB, then creates native installer media from the Install macOS Application:<br>
-```sudo /Applications/Install\ macOS\ Tahoe.app/Contents/Resources/createinstallmedia --volume /Volumes/USB /Applications/Install\ macOS\ Tahoe.app --nointeraction```
-  13. Copy ![#1 ESP](https://github.com/tbrautaset/Hackintosh-MSI-GE72VR-7RF/tree/master/%231%20ESP/EFI) relevant contents to USB's EFI partition (diskXs1 ) as the target volume.</details>
+  2. Open **/Applications/Utilities/Terminal**
+  3. Paste in this one-liner:
+```
+VER="26.1"; CODENAME="Tahoe"; echo "Latest macOS version: $VER ($CODENAME)"; softwareupdate --fetch-full-installer --full-installer-version "$VER" || { echo "Download failed"}; USB_DISK=$(diskutil list external physical | awk '/\/dev\/disk[0-9]+/ {print "/dev/r" substr($1,6)}'); [ -z "$USB_DISK" ] && { echo "No USB drive detected. Insert a USB flash drive and try again."} || echo "Detected USB drive: $USB_DISK"; echo "WARNING: $USB_DISK will be ERASED – all data will be lost"; diskutil eraseDisk JHFS+ USB GPT "$USB_DISK" || { echo "Disk erase failed"}; INSTALLER="/Applications/Install macOS $CODENAME.app"; [ ! -d "$INSTALLER" ] && { echo "Installer not found at \"$INSTALLER\""}; sudo "$INSTALLER/Contents/Resources/createinstallmedia" --volume /Volumes/USB --nointeraction || { echo "Failed to create installer"};EFI_PART="${USB}s1"; diskutil mount "$EFI_PART" || echo "Failed to mount EFI"; open /Volumes/EFI
+```
+  4. Copy ![#1 ESP](https://github.com/tbrautaset/Hackintosh-MSI-GE72VR-7RF/tree/master/%231%20ESP/EFI) relevant contents to USB's EFI partition (diskXs1 ) as the target volume.</details>
 <details><summary><strong> OTHERS </strong></summary><br>
   
 Time Sync
