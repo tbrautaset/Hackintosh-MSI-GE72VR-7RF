@@ -89,7 +89,7 @@ This step extracts the Installer contents, then installs bootloader to the USB s
 ```
 VER="26.1"; CODENAME="Tahoe"; echo "Latest macOS version: $VER ($CODENAME)"; softwareupdate --fetch-full-installer --full-installer-version "$VER" || { echo "Download failed"}; USB_DISK=$(diskutil list external physical | awk '/\/dev\/disk[0-9]+/ {print "/dev/r" substr($1,6)}'); [ -z "$USB_DISK" ] && { echo "No USB drive detected. Insert a USB flash drive and try again."} || echo "Detected USB drive: $USB_DISK"; echo "WARNING: $USB_DISK will be ERASED – all data will be lost"; diskutil eraseDisk JHFS+ USB GPT "$USB_DISK" || { echo "Disk erase failed"}; INSTALLER="/Applications/Install macOS $CODENAME.app"; [ ! -d "$INSTALLER" ] && { echo "Installer not found at \"$INSTALLER\""}; sudo "$INSTALLER/Contents/Resources/createinstallmedia" --volume /Volumes/USB --nointeraction || { echo "Failed to create installer"};EFI_PART="${USB}s1"; diskutil mount "$EFI_PART" || echo "Failed to mount EFI"; open /Volumes/EFI
 ```
-  4. Copy ![#1 ESP](https://github.com/tbrautaset/Hackintosh-MSI-GE72VR-7RF/tree/master/%231%20ESP/EFI) relevant contents to USB's EFI partition (diskXs1 ) as the target volume.</details>
+  4. Copy ![#1 ESP](https://github.com/tbrautaset/Hackintosh-MSI-GE72VR-7RF/tree/master/%231%20ESP/EFI) relevant contents to the mounted EFI partition.</details>
 <details><summary><strong> OTHERS </strong></summary><br>
   
 Time Sync
