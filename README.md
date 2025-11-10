@@ -141,25 +141,30 @@ After second reboot enter BIOS in the same way, go to Security tab, select Secur
 </pre></details>
 <details><summary><strong> USB </strong></summary><br>
 
-### :computer: USB ports in use: XHC: 8/26, PXSX: 1/4
-- `HS03 |  3 (03000000) | Type 0  `
-`Type-A    USB2.0      | Rear left`
-- `HS04 |  4 (04000000) | Type 0  `
-`Type-A    USB2.0      | Front left`
-- `HS08 |  8 (08000000) | Type 0  `
-`Type-A    USB2.0      | Rear right`
-- `HS10 | 10 (0a000000) | Type 255`
-`Internal  USB2.0      - BCM20702A0`
-- `HS11 | 11 (0b000000) | Type 255`
-`Internal  USB2.0      - BisonCam, NB Pro`
-- `HS12 | 12 (0c000000) | Type 255`
-`Internal  USB2.0      - CRW`
-- `SS19 | 19 (13000000) | Type 3  `
-`Type-A    USB3.0      | Rear left`
-- `SS20 | 20 (14000000) | Type 3  `
-`Type-A    USB3.0      | Front left`<br><br>
-- `HS01 |  3 (03000000) | Type 9  `
-`Type-C+Sw USB3.1 Gen2 | Front left`</details>
+### :computer: USB ports in use
+
+**XHC:** 8/26  **PXSX:** 4/4
+
+---
+
+#### **PXSX — ASM1142 USB 3.1 Host Controller**
+* `SS01 | 01 (00100000) | Type-C`| Companion to HS01
+* `SS02 | 02 (00200000) | Type-C`| Companion to HS02
+* `HS01 | 03 (00300000) | Type-C`| USB 3.1 Gen2 | Front left | Companion to SS01
+* `HS02 | 04 (00400000) | Type-C`| USB 3.1 Gen2 | Front left | Companion to SS02
+
+---
+
+#### **XHC — Intel 100 Series/C230 USB 3.0 xHCI Controller**
+* `HS01 | 03 (14100000) | Type-A`| USB 2.0 | Rear left | Companion to SS01
+* `HS02 | 04 (14200000) | Type-A`| USB 2.0 | Front left | Companion to SS02
+* `HS03 | 07 (14300000) | Internal`| USB 2.0 | MSI EPF USB
+* `HS04 | 08 (14400000) | Type-A`| USB 2.0 | Rear right
+* `HS05 | 0A (14500000) | Internal`| USB 2.0 | BCM20702A0
+* `HS06 | 0B (14600000) | Internal`| USB 2.0 | BisonCam, NB Pro
+* `HS07 | 0C (14700000) | Internal`| USB 2.0 | USB2.0-CRW
+* `SS01 | 13 (14800000) | Type-A`| USB 3.0 | Rear left | Companion to HS01
+* `SS02 | 14 (14900000) | Type-A`| USB 3.0 | Front left | Companion to HS02</details>
 ## Useful Info
 - [Vanilla Laptop Guide](https://dortania.github.io/OpenCore-Install-Guide/)
 
