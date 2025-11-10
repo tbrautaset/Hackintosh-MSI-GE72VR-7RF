@@ -156,15 +156,15 @@ After second reboot enter BIOS in the same way, go to Security tab, select Secur
 ---
 
 #### **XHC — Intel 100 Series/C230 USB 3.0 xHCI Controller**
-* `HS01 | 03 (14100000) | Type-A`| USB 2.0 | Rear left | Companion to SS01
-* `HS02 | 04 (14200000) | Type-A`| USB 2.0 | Front left | Companion to SS02
+* `HS01 | 03 (14100000) | Type-A`  | USB 2.0 | Rear left  | Companion to SS01
+* `HS02 | 04 (14200000) | Type-A`  | USB 2.0 | Front left | Companion to SS02
 * `HS03 | 07 (14300000) | Internal`| USB 2.0 | MSI EPF USB
-* `HS04 | 08 (14400000) | Type-A`| USB 2.0 | Rear right
+* `HS04 | 08 (14400000) | Type-A`  | USB 2.0 | Rear right
 * `HS05 | 0A (14500000) | Internal`| USB 2.0 | BCM20702A0
 * `HS06 | 0B (14600000) | Internal`| USB 2.0 | BisonCam, NB Pro
 * `HS07 | 0C (14700000) | Internal`| USB 2.0 | USB2.0-CRW
-* `SS01 | 13 (14800000) | Type-A`| USB 3.0 | Rear left | Companion to HS01
-* `SS02 | 14 (14900000) | Type-A`| USB 3.0 | Front left | Companion to HS02</details>
+* `SS01 | 13 (14800000) | Type-A`  | USB 3.0 | Rear left  | Companion to HS01
+* `SS02 | 14 (14900000) | Type-A`  | USB 3.0 | Front left | Companion to HS02</details>
 ## Useful Info
 - [Vanilla Laptop Guide](https://dortania.github.io/OpenCore-Install-Guide/)
 
