@@ -140,31 +140,30 @@ After second reboot enter BIOS in the same way, go to Security tab, select Secur
 │ <b>Fast Boot</b>
 </pre></details>
 <details><summary><strong> USB </strong></summary><br>
+### :computer: USB controllers
 
-### :computer: USB ports in use
+| Type | ID   | Name                                                          | Series   | Vendor | Device |
+| ---- | ---- | ------------------------------------------------------------- | -------- | ------ | ------ |
+| PXSX | 0x00 | ASM1142 USB 3.1 Host Controller                               |    -     | 0x1B21 | 0x1242 |
+| XHC  | 0x14 | 100 Series/C230 Series Chipset Family USB 3.0 xHCI Controller | 100/C230 | 0x8086 | 0xA12F |
+### :electric_plug: USB Ports
 
-**XHC:** 8/26  **PXSX:** 4/4
+| Type | Name | Location ID | Port | Connector | Dev Speed | Device           | Comment 1          | Comment 2        | Comment 3         |
+| ---- | ---- | ----------- | ---- | --------- | --------- | ---------------- | ------------------ | ---------------- | ----------------- |
+| PXSX | SS01 | 0x00100000  | 0x01 | TypeC     |           |                  | Companion to HS01  |                  |                   |
+| PXSX | SS02 | 0x00200000  | 0x02 | TypeC     |           |                  | Companion to HS02  |                  |                   |
+| PXSX | HS01 | 0x00300000  | 0x03 | TypeC     |           |                  | Type-C USB3.1 Gen2 | Front left       | Companion to SS01 |
+| PXSX | HS02 | 0x00400000  | 0x04 | TypeC     |           |                  | Type-C USB3.1 Gen2 | Front left       | Companion to SS02 |
+| XHC  | HS01 | 0x14100000  | 0x03 | USB3      |           |                  | Type-A USB2.0      | Rear left        | Companion to SS01 |
+| XHC  | HS02 | 0x14200000  | 0x04 | USB3      |           |                  | Type-A USB2.0      | Front left       | Companion to SS02 |
+| XHC  | HS03 | 0x14300000  | 0x07 | Internal  | 12 Mbps   | MSI EPF USB      | Internal USB2.0    | MSI EPF USB      |                   |
+| XHC  | HS04 | 0x14400000  | 0x08 | USB2      |           |                  | Type-A USB2.0      | Rear right       |                   |
+| XHC  | HS05 | 0x14500000  | 0x0A | Internal  | 12 Mbps   | BCM20702A0       | Internal USB2.0    | BCM20702A0       |                   |
+| XHC  | HS06 | 0x14600000  | 0x0B | Internal  | 480 Mbps  | BisonCam, NB Pro | Internal USB2.0    | BisonCam, NB Pro |                   |
+| XHC  | HS07 | 0x14700000  | 0x0C | Internal  | 480 Mbps  | USB2.0-CRW       | Internal USB2.0    | CRW              |                   |
+| XHC  | SS01 | 0x14800000  | 0x13 | USB3      |           |                  | Type-A USB3.0      | Rear left        | Companion to HS01 |
+| XHC  | SS02 | 0x14900000  | 0x14 | USB3      |           |                  | Type-A USB3.0      | Front left       | Companion to HS02 |</details>
 
----
-
-#### **PXSX — ASM1142 USB 3.1 Host Controller**
-* `SS01 | 01 (00100000) | Type-C`| Companion to HS01
-* `SS02 | 02 (00200000) | Type-C`| Companion to HS02
-* `HS01 | 03 (00300000) | Type-C`| USB 3.1 Gen2 | Front left | Companion to SS01
-* `HS02 | 04 (00400000) | Type-C`| USB 3.1 Gen2 | Front left | Companion to SS02
-
----
-
-#### **XHC — Intel 100 Series/C230 USB 3.0 xHCI Controller**
-* `HS01 | 03 (14100000) | Type-A`  | USB 2.0 | Rear left  | Companion to SS01
-* `HS02 | 04 (14200000) | Type-A`  | USB 2.0 | Front left | Companion to SS02
-* `HS03 | 07 (14300000) | Internal`| USB 2.0 | MSI EPF USB
-* `HS04 | 08 (14400000) | Type-A`  | USB 2.0 | Rear right
-* `HS05 | 0A (14500000) | Internal`| USB 2.0 | BCM20702A0
-* `HS06 | 0B (14600000) | Internal`| USB 2.0 | BisonCam, NB Pro
-* `HS07 | 0C (14700000) | Internal`| USB 2.0 | USB2.0-CRW
-* `SS01 | 13 (14800000) | Type-A`  | USB 3.0 | Rear left  | Companion to HS01
-* `SS02 | 14 (14900000) | Type-A`  | USB 3.0 | Front left | Companion to HS02</details>
 ## Useful Info
 - [Vanilla Laptop Guide](https://dortania.github.io/OpenCore-Install-Guide/)
 
