@@ -14,7 +14,7 @@
 		</data>
 		<key>Resources/ACPI/SSDT-UIAC-ALL.dsl</key>
 		<data>
-		aLGDZNIJ30wJ8Is60Zcqxep/aNo=
+		laeas4Ku4xpcHowrL4qzWGR0GlU=
 		</data>
 		<key>Resources/ACPI/SSDT-USBX.dsl</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>Resources/ACPI/SSDT-XOSI.dsl</key>
 		<data>
-		enQ7DK7AwCJ8OC3mxPbfU0sAWLg=
+		5++eEtoJj3ZhIqP7pprzol9xB/0=
 		</data>
 		<key>Resources/AppIcon.icns</key>
 		<data>
-		eEFc+eH47+5W3LhLRJcDD9Iopvk=
+		0WC3q7E664xCsa9hEFchBaH4jEU=
 		</data>
 		<key>Resources/Assets.car</key>
 		<data>
-		mZeFMGkojO2f2LX6d+aMzopC/EU=
+		ocoQrZrB7p/2a1gbLY3BGPsy3+Q=
 		</data>
 		<key>Resources/Audio/Codecs.plist</key>
 		<data>
-		ajs3PP9U5B1ae6W7eDwHGFTiPac=
+		d44DD7Wag1znI+VGODRX+9ofnzM=
 		</data>
 		<key>Resources/Audio/Controllers.plist</key>
 		<data>
@@ -50,15 +50,15 @@
 		</data>
 		<key>Resources/Base.lproj/Credits.rtf</key>
 		<data>
-		Ambc8MrOML+8whIezp6X6Q+104g=
+		Ay98eEiySL+lFH1TNqijZwMUh1M=
 		</data>
 		<key>Resources/Base.lproj/MainMenu.nib/keyedobjects-101300.nib</key>
 		<data>
-		HLonqc/8eNgt3Nik6BQmMIPzPuI=
+		1KBmQQSV+cxUtmq63P+G2WV9ag8=
 		</data>
 		<key>Resources/Base.lproj/MainMenu.nib/keyedobjects-110000.nib</key>
 		<data>
-		9NFZuKw3YBz91vvP8kp2UifVN00=
+		4KXUvmyDc4cV4vSTufZCCFG3hac=
 		</data>
 		<key>Resources/Clover/config_patches.plist</key>
 		<data>
@@ -78,11 +78,15 @@
 		</data>
 		<key>Resources/EveryMac/EveryMacScraper.py</key>
 		<data>
-		jtlQk9SLLZMQeLxRvuvfSJZ1ip0=
+		WyQbJ9bQX4l65l/7KtUOvC9XJQ4=
 		</data>
 		<key>Resources/EveryMac/Systems.plist</key>
 		<data>
-		a8kSqNnMiz0VUoSDPFqb09T5WIc=
+		zS8HkZ2S393+Y2niVb3SLk48ISE=
+		</data>
+		<key>Resources/EveryMac/requirements.txt</key>
+		<data>
+		nvKc32b/NugeD8XKp33lkrSpGKc=
 		</data>
 		<key>Resources/Framebuffer/macOS 10.13.6/Broadwell.bin</key>
 		<data>
@@ -392,6 +396,60 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Resources/Help/Contents/Resources/zh-Hant.lproj/Audio.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KVPTpYRUKEy0vL8UBs9nKtN+854=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/Help/Contents/Resources/zh-Hant.lproj/Display.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ziSs+pzxm9XmqWbu6KQqk0J6AS8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/Help/Contents/Resources/zh-Hant.lproj/Hackintool.helpindex</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			K34NQg+Sf3xsHng7i1DDsfF7lJk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/Help/Contents/Resources/zh-Hant.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			S8RSMMDowTaS3I2Uq3AXJ0vJ4PU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/Help/Contents/Resources/zh-Hant.lproj/USB.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XGA7jDR56u4zlVv46vMym04Ne64=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/Help/Contents/Resources/zh-Hant.lproj/index.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VwEEJ4f7jrNbm2TPkKZTvApoOt8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>Resources/Intel/AudioCodecs.plist</key>
 		<data>
 		KrsSaFWdfh34q0ekD2AWZfRVsPg=
@@ -574,7 +632,7 @@
 		</data>
 		<key>Resources/Kexts/AppleIntelInfo.kext/Contents/MacOS/AppleIntelInfo</key>
 		<data>
-		K2D57jHWMGHgRv1N+ayAzA9umlM=
+		sXscs27J4fieGfqnhjshZMIfUvM=
 		</data>
 		<key>Resources/Kexts/IO80211Family.kext/Contents/Info.plist</key>
 		<data>
@@ -674,19 +732,19 @@
 		</data>
 		<key>Resources/Kexts/kexts.plist</key>
 		<data>
-		3WjwmvwODRFts8RxI0Bfn+Q/2II=
+		HzzqGnRRQQC73iMmc3rySp2lxu4=
 		</data>
 		<key>Resources/OpenCore/config.plist</key>
 		<data>
-		H8CgZwG+ZleMgluFEnIBL/hdKBE=
+		RyWmFE/ac/JrIUrzYrWa7Z+hsec=
 		</data>
 		<key>Resources/PCI/pci.ids</key>
 		<data>
-		IIjDYA1aKd8WU9cE4Coszj9adl8=
+		k6G1ASnlX28vWrR06gF/M40tWOI=
 		</data>
 		<key>Resources/USB/USBInjectAll-Info.plist</key>
 		<data>
-		BroXrhV0pCWgK4T0sPQlcQSSCUY=
+		6JgnwwZN1/xwR3ATADqDwCaqYiw=
 		</data>
 		<key>Resources/USB/config_patches.plist</key>
 		<data>
@@ -694,11 +752,11 @@
 		</data>
 		<key>Resources/USB/usb.ids</key>
 		<data>
-		jlm0PGiIiYvAf1f331FIzsaEMII=
+		bdY/vtHaULSZaPZ7o4ERuDpGTE0=
 		</data>
 		<key>Resources/Utilities/iasl</key>
 		<data>
-		gsS7Qb49ruRjWkkHaUki4ei2HHM=
+		z8Fv3le++UvugghnZD8xfnbgVrI=
 		</data>
 		<key>Resources/Utilities/refs.txt</key>
 		<data>
@@ -716,7 +774,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gpLWqJPOGHAL/6VnEQ46ude9cLM=
+			hpYAlkjv+BWNBRe6xw7lHKU3/Lk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -725,7 +783,34 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			s2MlQxGCYpDkztQWrqyN0cqpAF0=
+			e5p5U6fXY1+yTTC0f/EkSIzF5KI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/es.lproj/Credits.rtf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ay98eEiySL+lFH1TNqijZwMUh1M=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/es.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lUayT1/Co0XBTpw489I5vfB0X5c=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/es.lproj/MainMenu.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MlslDoMK1OTS5ymEMczQYgrXfnc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -734,7 +819,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gHJ2RTuHfpwtTj/OYYaEfME3CoM=
+			9RfqCe8odVZRhHgmDR4kN3ABHJE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -743,7 +828,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pcZ1mJXNr7yjw4SqgBuNWoaJEls=
+			1zAp7erTJDYoZ4zklfP/lfDPwAU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -752,7 +837,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Onreoar4RxHxWg2SC1NUndqs0fE=
+			XbpsllR7qhJUthF68j4aR15Sdpc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -770,7 +855,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YpNl2VKhfnzl+wg5FjklBLaY2AY=
+			TC7uqaBxMQt3PbbmyFQLbFENXIQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -779,7 +864,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CbKaunPfxlz3RSmjDHNq3Ek0Tu0=
+			LT6pCfVxK8zBzSJ5fiVQ8FAP5Uw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -788,7 +873,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Nsc10UqlS2Tkh43PeMpas5XoJrQ=
+			9xcNYm0NQvzEtidvwLf/RIr7gOc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -797,7 +882,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			t0gsrDEHLGNki5GyW44k9NK4Xyo=
+			nqbKJky6Rfr0dPfRjZVmvJaVhtY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -806,7 +891,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EbW4krt0C9rsLPNMyI4EOWLSGoE=
+			LrGdrhdxT+pS7IVI8Svxwadnylw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/zh-Hant.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kYCgpeuCMCcKEQXOhuhcvP81v4o=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -818,7 +912,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			VPouQ7xhrrk+mxEFbflCRwqv46g=
+			6rLU0Y/IZOoUrsx0w9lJzfPbx2k=
 			</data>
 			<key>requirement</key>
 			<string>identifier "org.sparkle-project.Sparkle" and anchor apple generic and certificate leaf[subject.CN] = "Apple Development: Ben Baker (V2HRS7667H)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -841,7 +935,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gR/mWLTqDd97EL3L8heFVv6hWtVIqJe0pALG58rrJr0=
+			IyRJi5Zd1Ug514pUu7NO+oEtSxqX1sRpRv0RFRciYtI=
 			</data>
 		</dict>
 		<key>Resources/ACPI/SSDT-USBX.dsl</key>
@@ -855,28 +949,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z6TJrLlWzDhd9R8VP9WnlXvP3eWRLicUYmTnFM6WKhM=
+			I8pkrQpY76o/HOCejOsdOONAidocrCnOu0zh7Ewjpu0=
 			</data>
 		</dict>
 		<key>Resources/AppIcon.icns</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f6dL8k0CTDQifWRsP+JLdevF3SttDR+UxESS90mPCGM=
+			Bz3zBnooZ0YvMbqXOenyLLPQQdWPM64ya2wr2LChNKg=
 			</data>
 		</dict>
 		<key>Resources/Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cEV/cbTqlc9gWCjpVwx7MB15NAn87vK0q95OOVV17wY=
+			dIfb5MJJyGpBYbSkxN2tn43n0HJyLtHcAorUPp/a+4c=
 			</data>
 		</dict>
 		<key>Resources/Audio/Codecs.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			S6EqoILmGSyO48Uj9sD8bLWL0jNq2AnTSzgvlPU9dvE=
+			luEmjFMWYj5EdJdITy6CJP8P+Ge+qmVQ+3VNRtksFuI=
 			</data>
 		</dict>
 		<key>Resources/Audio/Controllers.plist</key>
@@ -904,21 +998,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IvEE8bp6CbJGGjfw2WB0u+Hcd72l8pEp21qD4pcxYUU=
+			alfjeKbh51hbctJUE0LyM4SrSlDiPtvqgLsZ/G6MMK0=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/MainMenu.nib/keyedobjects-101300.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vUEqCEamz/MazaPe5uJ3fnfm2wOWD+ujNbK3Q48VPtg=
+			VONqBm3wK2PNtowUA83cekIohYG3LxWDyIkjZYnsrcs=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/MainMenu.nib/keyedobjects-110000.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rNWOmte4lRVOncE8BPCL66U9msEXDef+SaCogE6s72U=
+			baA4r9bSp3WUNHDWTDEmlP2FM0VMdXZrLN88Vrvqz0k=
 			</data>
 		</dict>
 		<key>Resources/Clover/config_patches.plist</key>
@@ -953,14 +1047,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NeI4eaHmPCGCXWJinKvehUex/T7ISJuvMqpEk4a6u7s=
+			TZSPKc5KvMuqcsQEVXUCFRS/xhU/BNUpaCbOjO2QUQY=
 			</data>
 		</dict>
 		<key>Resources/EveryMac/Systems.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YfR7S9tmk7ng9idn2B+STt9hLl/VF2VfX8UlOXdt688=
+			Wth/5HFIwKpvtwtzrxbr1LhjETbZh3ow3kFo7lBqrBI=
+			</data>
+		</dict>
+		<key>Resources/EveryMac/requirements.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UL+uIcdsFZaQeC4fTAMGNhUw6nFy5OIE75YBMv7dvNg=
 			</data>
 		</dict>
 		<key>Resources/Framebuffer/macOS 10.13.6/Broadwell.bin</key>
@@ -1340,6 +1441,60 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Resources/Help/Contents/Resources/zh-Hant.lproj/Audio.html</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lEF07tRt9TaNus1Pmdk/ia7DHOmDqovxRAT54JiP1UQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/Help/Contents/Resources/zh-Hant.lproj/Display.html</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JdVRf9nAaGmGbHWb0FkDHf+wt8FePTlnMLZdfjZexXg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/Help/Contents/Resources/zh-Hant.lproj/Hackintool.helpindex</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HPDCQy6BtBLFVXcCCQN4oy+eUNcuApPKR3hHFK0gRf8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/Help/Contents/Resources/zh-Hant.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JHOQWKDWaa2B0HRFQj0tF7awxPDZB2AkX2NZg2W93XA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/Help/Contents/Resources/zh-Hant.lproj/USB.html</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zE7+luOVu1enmbTEV+UHWleqQ6V4cQOdDhDxVoiUt+E=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/Help/Contents/Resources/zh-Hant.lproj/index.html</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BgYYhME7sItzWFz5FbOswwNjjqQ0lxD9PUdnHULP2DU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>Resources/Intel/AudioCodecs.plist</key>
 		<dict>
 			<key>hash2</key>
@@ -1659,7 +1814,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lecQ4TRswA2B/a2gEyoVuqRVHSWwaK93kjWjNYAohMA=
+			D/+u9DSItJ3GUNsjBru3lH1IppCIgjCjR+7xstuAlb4=
 			</data>
 		</dict>
 		<key>Resources/Kexts/IO80211Family.kext/Contents/Info.plist</key>
@@ -1834,28 +1989,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qjCODbgkI0gyWbCEP7DI4mgXSFSUwd/bQ3HbPU5QMZM=
+			BMWMzwwMhk518V6jYDeK1HRHECKfEpoRkeNQfhimpV8=
 			</data>
 		</dict>
 		<key>Resources/OpenCore/config.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s44xL7sV4swXjEa1kbctFs/V6gUIiLVKM8544XXu5BM=
+			0bp4VtUvz5av4adCLxLEnzkmerhTRDvv9HxOzCKCyVY=
 			</data>
 		</dict>
 		<key>Resources/PCI/pci.ids</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PteDMKwy2MupqQgx+IZUwwNGuXBcm++wE0JOJ00vP78=
+			BcixlfNABJW7/Nd3YE7ipxuuZLTk1pF+E8gwyM2AiS4=
 			</data>
 		</dict>
 		<key>Resources/USB/USBInjectAll-Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EN6Up0wBrAz+xgCUS9Phe/tNObf/7MCFYDjl1xDfpgM=
+			e9YPS4dW32qi3K3Xg5yLSLC9DFRRhxHnAy7tbJKGXrE=
 			</data>
 		</dict>
 		<key>Resources/USB/config_patches.plist</key>
@@ -1869,14 +2024,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hzzaFbuGycCSQtQ/GShL7yuoHsmd4tNYYroqq79APzs=
+			BhPCDey+hr0mgsSjIQx42Vb0uNHgYdYNdVvgxj+e/0Q=
 			</data>
 		</dict>
 		<key>Resources/Utilities/iasl</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bx5wH3VnEkLec0d2S9C1TQcuL2bC88C5ChkoYEaMEXI=
+			yI3w6NoRVHDenhFcqzMesAgJUn+JpN/cqaQWcrl37ho=
 			</data>
 		</dict>
 		<key>Resources/Utilities/refs.txt</key>
@@ -1904,7 +2059,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			I6739T0ee4DWNSy1trk4200orCVOccLmvXHC2Ffv09c=
+			TZQAitByxNsxWn0A7qt5rs5cc0qLllKcjlCU5JR9fSw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1913,7 +2068,34 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cnqU40yqMqrv3hti80wYEx6fN653+tldGjF5+OohAow=
+			Ogvt2XiWe8X1Wn9XkhAfMgCmmWs2mDIMPP5GDyRsVW4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/es.lproj/Credits.rtf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			alfjeKbh51hbctJUE0LyM4SrSlDiPtvqgLsZ/G6MMK0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/es.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rdKsPwe0VO3OsGrS+K7yPGUjkFNLGJcfbtUQfZ/8tYY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/es.lproj/MainMenu.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wv5Gx+JQxWmdalmUr+KoE1kxzcM/rQI64Sle5if5Dow=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1922,7 +2104,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fvc1uIKOGv7CR/9y7+OcPgeIiHf/ulJ9jb3IIfMKc+s=
+			N88HaKwkkCma7taGo3Xlr0p8BhCCU6TEiZML8l39XIM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1931,7 +2113,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y310eQ2OSl45jkClcI/Qz1PoOCTWwhjncOhuJoy5z5s=
+			UGjwQMGrv1rvi3ZqMUKdQPoWdrpQkJSAmX8fUndQVdI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1940,7 +2122,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3yv9qHK3VhSYiqQMN3fLSsZfVhmeOmyo0cPU58qF//s=
+			RnLuQ1sAbpliKyFanBZjsAWw6rXP440K802JRcMWXOE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1958,7 +2140,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+V+ue5NZmcBnsJ4zA9qf4wrcN16Q/X9y2iy4wEc2RHA=
+			4s8xoVZaHdGXXdv4RpZ7cXPUvgCjAzGm9tlNIKC0sZo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1967,7 +2149,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BwM4DEOU6gESoIsYeIMdISLmMG8VjvElnluhMReNRSA=
+			GeryF8cUlZuJEcK0vNTYKiYcRQqXBc6Q+f1aym3hKkY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1976,7 +2158,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			918XAylxJHv8kzdHKF/YPINd4VzKKbOgB6yp1ORVCHk=
+			NOaEJ4/qeaxJKzgS0UipJFZLNi9eCMXHyOm7UYo2yCY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1985,7 +2167,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JGziH+TVU5w0FGqg4ogey7FY2zR86oh9YQlLw3b/7lI=
+			RxinSNnDAofWJNDU+1txDc/yazdO+oHgbQngz/8kmTY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1994,7 +2176,16 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			i/zsxFKSv1Y3Myb5Df3wWJVj4bn4HCVn0LWBU2SBsDU=
+			iN19CNh8moY4vNd6vthd/ino08GIzCYwt0ycOuJFfuI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/zh-Hant.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			i3GLaTCSKFjkYL10yH+NUISY6hD5IUsYBr1XS8ip4Uc=
 			</data>
 			<key>optional</key>
 			<true/>

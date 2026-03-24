@@ -176,7 +176,7 @@
 		<key>NeverHibernate</key>
 		<true/>
 		<key>Timeout</key>
-		<integer>5</integer>
+		<integer>3</integer>
 		<key>XMPDetection</key>
 		<integer>-1</integer>
 	</dict>
@@ -240,10 +240,31 @@
 	</dict>
 	<key>GUI</key>
 	<dict>
+		<key>Custom</key>
+		<dict>
+			<key>Entries</key>
+			<array>
+				<dict>
+					<key>Disabled</key>
+					<false/>
+					<key>FullTitle</key>
+					<string>MemTest86</string>
+					<key>NoCaches</key>
+					<false/>
+					<key>Path</key>
+					<string>\EFI\MemTest86\BOOTX64.efi</string>
+					<key>Type</key>
+					<string>Other</string>
+					<key>VolumeType</key>
+					<string>Internal</string>
+				</dict>
+			</array>
+		</dict>
 		<key>EmbeddedThemeType</key>
 		<string>Daytime</string>
 		<key>Hide</key>
 		<array>
+			<string>HD3542280</string>
 			<string>Legacy HD5</string>
 			<string>Windows</string>
 		</array>
@@ -260,8 +281,12 @@
 		<dict>
 			<key>Entries</key>
 			<true/>
+			<key>Legacy</key>
+			<false/>
 			<key>Linux</key>
 			<true/>
+			<key>Tool</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>KernelAndKextPatches</key>
@@ -290,6 +315,8 @@
 	</dict>
 	<key>Quirks</key>
 	<dict>
+		<key>AppleXcpmForceBoost</key>
+		<true/>
 		<key>AvoidRuntimeDefrag</key>
 		<true/>
 		<key>DisableIoMapper</key>
@@ -311,6 +338,10 @@
 		<key>ResizeAppleGpuBars</key>
 		<integer>-1</integer>
 		<key>SetupVirtualMap</key>
+		<true/>
+		<key>SignalAppleOS</key>
+		<true/>
+		<key>SyncRuntimePermissions</key>
 		<true/>
 	</dict>
 	<key>RtVariables</key>
