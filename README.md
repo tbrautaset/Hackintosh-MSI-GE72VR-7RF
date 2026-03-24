@@ -5,7 +5,7 @@
 [![macOS](https://img.shields.io/badge/macOS-Tahoe-yellow.svg)](https://www.apple.com/os/macos/)<br>
 [![Clover](https://img.shields.io/badge/Clover-516x-green)](https://github.com/CloverHackyColor/CloverBootloader/releases)
 [![OpenCore](https://img.shields.io/badge/OpenCore-1.0.x-green)](https://github.com/dortania/build-repo/releases)
-[![OpenCoreLegacy Patcher](https://img.shields.io/badge/OpenCore%20Legacy%20Patcher-2.4.x-green)](https://github.com/dortania/OpenCore-Legacy-Patcher/releases)<br>
+[![OCLP-Mod](https://img.shields.io/badge/OCLP-Mod-1.3.x-green)](https://github.com/laobamac/OCLP-Mod/releases)<br>
 [![rEFInd](https://img.shields.io/badge/rEFInd-0.14.x-green)](http://sourceforge.net/projects/refind/files)
 [![Works on my machine](https://img.shields.io/badge/Works-on%20my%20laptop-0green)](https://www.msi.com/Laptop/GE72vr-7rF-Apache-Pro/Specification)
 <details><summary><strong> HARDWARE </strong></summary><br>
