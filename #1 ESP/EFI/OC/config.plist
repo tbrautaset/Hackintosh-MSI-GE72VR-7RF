@@ -1022,7 +1022,7 @@
 				<key>BundlePath</key>
 				<string>VoodooRMI.kext/Contents/PlugIns/RMISMBus.kext</string>
 				<key>Comment</key>
-				<string>v.1.0</string>
+				<string>v.1.0 (v.1.4.3)</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1166,10 +1166,7 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array>
-			<string>ESP\EFI\MemTest86\BOOTX64.efi</string>
-			<string>ESP\EFI\Manjaro\grubx64.efi</string>
-		</array>
+		<array/>
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleAttributes</key>
@@ -1238,7 +1235,7 @@
 				<key>Name</key>
 				<string>Manjaro</string>
 				<key>Path</key>
-				<string>PciRoot(0x0)/Pci(0x17,0x0)/Sata(0x3,0xFFFF,0x0)/HD(1,GPT,E031D39E-05F4-4133-9995-75868B8DB839,0x28,0x64000)/ESP\EFI\Manjaro\grubx64.efi</string>
+				<string>PciRoot(0x0)/Pci(0x17,0x0)/Sata(0x3,0xFFFF,0x0)/HD(1,GPT,E031D39E-05F4-4133-9995-75868B8DB839)/\EFI\Manjaro\grubx64.efi</string>
 				<key>TextMode</key>
 				<false/>
 			</dict>
@@ -1256,7 +1253,25 @@
 				<key>Name</key>
 				<string>MemTest86</string>
 				<key>Path</key>
-				<string>PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,02-04-B1-71-53-38-25-00)\HD(1,GPT,BBE08296-B185-4A2A-A2D6-9D37C47DB909,0x28,0x64000))/ESP\EFI\MemTest86\BOOTX64.efi</string>
+				<string>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)/NVMe(0x1,02-04-B1-71-53-38-25-00)/HD(1,GPT,BBE08296-B185-4A2A-A2D6-9D37C47DB909)/\EFI\MemTest86\BOOTX64.efi</string>
+				<key>TextMode</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Auxiliary</key>
+				<false/>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Flavour</key>
+				<string>rEFInd:Other</string>
+				<key>Name</key>
+				<string>rEFInd</string>
+				<key>Path</key>
+				<string>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)/NVMe(0x1,02-04-B1-71-53-38-25-00)/HD(1,GPT,BBE08296-B185-4A2A-A2D6-9D37C47DB909)/\EFI\BOOT\BOOTX64.efi</string>
 				<key>TextMode</key>
 				<false/>
 			</dict>
@@ -1274,7 +1289,7 @@
 				<key>Name</key>
 				<string>Windows</string>
 				<key>Path</key>
-				<string>PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,02-04-B1-71-53-38-25-00)\HD(1,GPT,BBE08296-B185-4A2A-A2D6-9D37C47DB909,0x28,0x64000))/ESP\EFI\Microsoft\Boot\bootmgfw.efi</string>
+				<string>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)/NVMe(0x1,02-04-B1-71-53-38-25-00)/HD(1,GPT,BBE08296-B185-4A2A-A2D6-9D37C47DB909)/\EFI\microsoft\Boot\bootmgfw.efi</string>
 				<key>TextMode</key>
 				<false/>
 			</dict>
@@ -1440,7 +1455,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>>C0000000000000000</string>
+			<string>00000000000000000</string>
 			<key>ProcessorType</key>
 			<integer>1793</integer>
 			<key>ROM</key>
@@ -1452,7 +1467,7 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro16,4</string>
 			<key>SystemSerialNumber</key>
-			<string>C00000000000</string>
+			<string>000000000000</string>
 			<key>SystemUUID</key>
 			<string>00000000-0000-0000-0000-000000000000</string>
 		</dict>
